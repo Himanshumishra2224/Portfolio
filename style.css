@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    box-sizing: border-box;
+}
+
+.cc{
+    background-color:#5a1765;
+}
+
+#header{
+    display: flex;
+    justify-content:flex-start;
+    padding: 20px 30px;
+    background-color:#333;
+    height: 12vh;
+    width: 100%;
+
+}
+
+#navbar{
+    width: 40%;
+}
+
+#mainMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    width: 100%;
+    height: 3rem;
+    border-radius: 1rem;
+}
+
+#mainMenu>li>a{
+    text-decoration: none;
+    color: #7971ea; 
+    padding: 10px 20px;
+    width: 100%;
+    font-size:1rem;
+}
+
+#myhead{
+    font-size: 2.4rem;
+    margin-left: 4rem;
+    width: 40%;
+}
+
+#sp1{
+    color: #ffa600;
+}
+#sp2{
+    color: #03658c;
+}
+
+.ico{
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.4rem;
+}
+
+#comlink {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+
+#comlink>li>a{
+    color: aliceblue;
+    justify-content: flex-end;
+}
+
+#hero{
+    padding: 1.5rem 4rem;
+    background-color: #1572a1;
+    display: flex;
+}
+
+.hero-content{
+    padding: 0 2rem;
+    color: #FDF5AA;
+}
+
+.myself{
+    border: 2px solid #ffa600;
+    font-size: 1.4rem;
+    color: #e5c185;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+
+.name{
+    padding-bottom: 0.8rem;
+    padding-left: 0.5rem;
+    color:#e5c185 ;
+    font-weight: 700;
+}
+
+.hero-content > img{
+    height: 300px;
+    width: 260px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+.tagline{
+    font-size: 1.4rem;
+    padding-left: 0.5rem;
+    color: #e5c185;
+}
+
+#skills{
+    /*  */
+    border: 2px solid black;
+    background-color: #03658c;
+}
+
+#skills>h2{
+    text-align: center;
+    font-size: 2rem;
+    background-color: #FDF5AA;
+    color: #d74a49;
+    font-weight: 700;
+}
+
+
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+    border: 3px solid #ffa600;
+    padding: 2rem;
+    background-color:#58A0C8 ;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+
+.skill{
+    height: fit-content;
+    width: 250px;
+    justify-content: center;
+    text-align: justify;
+    border: 2px solid black;
+    padding: 1rem;
+    background-color: #abc4ff;
+    border-radius: 1rem;
+}
+
+h3{
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #112233;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.skill>p{
+    color: #141e26;
+    font-weight: 600;
+}
+
+
+table{
+    width :40%;
+    height: 25vh;
+    margin-left: 20%;
+    margin-top: 2rem;
+}
+
+.frm{
+    border: 2px solid black;
+    width: 50%;
+    height: fit-content;
+    margin-left: 25%;
+    margin-top: 2rem;
+    background-color: #cac7ff;
+}
+
+#contact{
+    background-color: #9385e3;
+    height:50vh ;
+}
+
+#contact>h2{
+    text-align: center;
+    font-size: 2rem;
+    background-color: #fff6e6;
+    color: #d74a49;
+    font-weight: 700;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 20px 30px;
+    background-color:#333;
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+
+@media(max-width:750px){
+     #header{
+        flex-direction: column;
+        padding: 5px;
+        height: fit-content;
+    }
+
+    #header > *{
+        margin-top: 10px;
+        height: fit-content;
+    }
+
+    .skill{
+        height: fit-content;
+    }
+
+    .frm{
+        height: fit-content;
+        flex-direction: column;
+    }
+
+    table{
+        height: fit-content;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:550px){
+    #header{
+        flex-direction: column;
+        padding: 5px;
+        height: fit-content;
+    }
+
+    #header > *{
+        margin-top: 10px;
+        height: fit-content;
+    }
+
+    .skill{
+        height: fit-content;
+    }
+
+    .frm{
+        height: fit-content;
+        flex-direction: column;
+    }
+
+    table{
+        height: fit-content;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:1100px){
+    #header{
+        flex-direction: column;
+        padding: 5px;
+        height: fit-content;
+    }
+
+    #header > *{
+        margin-top: 10px;
+        height: fit-content;
+    }
+
+    .skill{
+        height: fit-content;
+    }
+
+    .frm{
+        height: fit-content;
+        flex-direction: column;
+    }
+
+    table{
+        height: fit-content;
+        flex-direction: column;
+    }
+}
